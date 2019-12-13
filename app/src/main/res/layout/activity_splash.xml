@@ -11,10 +11,9 @@
         android:id="@+id/ivLogo"
         android:layout_width="183dp"
         android:layout_height="129dp"
-        android:layout_marginTop="132dp"
+        android:layout_marginTop="284dp"
         android:src="@drawable/barber"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 

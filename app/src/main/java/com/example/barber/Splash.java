@@ -9,10 +9,13 @@ import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import butterknife.BindView;
+import butterknife.ButterKnife;
+
 public class Splash extends AppCompatActivity {
 
-    private TextView tvWelcome;
-    private ImageView ivLogo;
+    @BindView (R.id.tvWelcome) TextView tvWelcome;
+    @BindView(R.id.ivLogo) ImageView ivLogo;
 
 
     @Override
@@ -20,13 +23,13 @@ public class Splash extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash);
 
-        tvWelcome = (TextView) findViewById(R.id.tvWelcome);
-        ivLogo = (ImageView) findViewById(R.id.ivLogo);
+        ButterKnife.bind(this);
       final Intent intent = new Intent(this,MainActivity.class);
 
         Animation mytransition = AnimationUtils.loadAnimation(this,R.anim.mytransition);
         tvWelcome.startAnimation(mytransition);
         ivLogo.startAnimation(mytransition);
+
         final Thread timer = new Thread(){
             public void run(){
                 try {

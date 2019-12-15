@@ -12,11 +12,15 @@
         android:src="@drawable/logo_back"/>
 
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:text="Barder Design"
         android:textStyle="bold"
         android:textColor="@color/colorWhite"
         android:layout_marginTop="5dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="vincentkogei@gmail.com"/>
 
 </LinearLayout>

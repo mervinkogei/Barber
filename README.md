@@ -29,6 +29,10 @@ This is an android app that allows the user to search for Barber stylist in thei
 * Run your application in the IDE and choose the mobile device to run the app on.
 * Wait until the installation of APK is done the the app is ready for use.
 
+
+# Screenshots
+| ![<img src="/Readme/image1.jpeg"](/Readme/image1.jpeg)     | ![<img src="/Readme/image2.jpeg"](/Readme/image2.jpeg) |
+
 # Known bugs
 * None at the moment
 

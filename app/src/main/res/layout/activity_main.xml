@@ -15,6 +15,7 @@
         app:itemTextColor="@color/colorPrimary"
         app:itemIconTint = "@color/colorPrimaryDark"
         android:layout_gravity="start"
+        android:id="@+id/navigation_view"
         app:menu ="@menu/drawermenu">
 
     </com.google.android.material.navigation.NavigationView>
@@ -29,14 +30,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:inputType="textPersonName"
             android:hint="Name"
+            android:inputType="textPersonName"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.56"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.476" />
+            app:layout_constraintVertical_bias="0.441" />
 
         <EditText
             android:id="@+id/etEmail"
@@ -50,7 +51,7 @@
             app:layout_constraintHorizontal_bias="0.56"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/etName"
-            app:layout_constraintVertical_bias="0.442" />
+            app:layout_constraintVertical_bias="0.372" />
 
         <ImageView
             android:id="@+id/ivLogo"
@@ -62,7 +63,7 @@
             app:layout_constraintHorizontal_bias="0.425"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.661" />
+            app:layout_constraintVertical_bias="0.566" />
 
         <Button
             android:id="@+id/btnSignup"
@@ -81,14 +82,14 @@
             android:layout_height="wrap_content"
             android:layout_marginEnd="16dp"
             android:ems="10"
-            android:inputType="textPersonName"
             android:hint="Location"
+            android:inputType="textPersonName"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.609"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.618" />
+            app:layout_constraintVertical_bias="0.571" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 </androidx.drawerlayout.widget.DrawerLayout>

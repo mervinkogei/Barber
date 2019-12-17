@@ -21,6 +21,7 @@ This is an android app that allows the user to search for Barber stylist in thei
 ## Requirements:
 * An android IDE (preferably "Android Studio")
 * An Android mobile phone
+* An Android Emulator 
 
 ## Procedure
 * Clone the project into your local machine

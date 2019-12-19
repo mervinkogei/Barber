@@ -24,7 +24,7 @@ public class Splash extends AppCompatActivity {
         setContentView(R.layout.activity_splash);
 
         ButterKnife.bind(this);
-      final Intent intent = new Intent(this,MainActivity.class);
+      final Intent intent = new Intent(this,Location.class);
 
         Animation mytransition = AnimationUtils.loadAnimation(this,R.anim.mytransition);
         tvWelcome.startAnimation(mytransition);

@@ -23,9 +23,8 @@ public class Login extends AppCompatActivity {
     private EditText Name;
     private EditText Password;
     private TextView Info;
-    private Button Login;
+    private Button Signin;
     private int counter = 5;
-    private TextView userRegistration;
     private FirebaseAuth firebaseAuth;
     private ProgressDialog progressDialog;
 
@@ -37,10 +36,10 @@ public class Login extends AppCompatActivity {
         Name = (EditText) findViewById(R.id.etName);
         Password = (EditText) findViewById(R.id.etPassword);
         Info = (TextView) findViewById(R.id.tvinfo);
-        Login = (Button) findViewById(R.id.btnlogin);
-        userRegistration = (TextView) findViewById(R.id.tvRegister);
+        Signin = (Button) findViewById(R.id.btnlogin);
+        TextView userRegistration = (TextView) findViewById(R.id.tvRegister);
 
-        Info.setText("No of Attempts remaining: 5");
+//        Info.setText("No of Attempts remaining: 5");
 
         firebaseAuth = FirebaseAuth.getInstance();
 
@@ -53,7 +52,7 @@ public class Login extends AppCompatActivity {
             startActivity(new Intent(Login.this,Bookings.class));
         }
 
-        Login.setOnClickListener(new View.OnClickListener() {
+        Signin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 validate(Name.getText().toString(), Password.getText().toString());
@@ -87,7 +86,7 @@ public class Login extends AppCompatActivity {
                     Info.setText("no of Attempts Remaining: " + counter);
                     if(counter == 0){
                         progressDialog.dismiss();
-                        Login.setEnabled(false);
+                        Signin.setEnabled(false);
                     }
                 }
 

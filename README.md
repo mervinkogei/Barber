@@ -1,4 +1,4 @@
-# Barber
+# Barber [![codebeat badge](https://codebeat.co/badges/363de218-36b6-49ec-b1a5-63410b0b0ad4)](https://codebeat.co/projects/github-com-mervinkogei-barber-master)
 This is an android app that allows the user to search for Barber stylist in their location and check the services they offer.
 
 # Contributors
@@ -21,7 +21,7 @@ This is an android app that allows the user to search for Barber stylist in thei
 ## Requirements:
 * An android IDE (preferably "Android Studio")
 * An Android mobile phone
-* An Android Emulator 
+* An Android Emulator
 
 ## Procedure
 * Clone the project into your local machine
